@@ -17,6 +17,18 @@ git clone https://github.com/8dcc/4cli
 cd 4cli
 make
 # ...
+
+listboards list available boards
+open <id> open a thread from the current window, specified by its index
+board <code> display the first page (ex: board g)
+board <code> <page> display the nth page starting from 1
+thread <board> <id> open a specific thread
+archive <code> display archived threads from a board
+help show the help page
+license display the license page
+exit/quit/q exit the application
+
+License
 #+end_src
 
 * Usage
@@ -28,3 +40,4 @@ The board by default is =/g/=, and can be changed with the =BOARD= macro in
 ./4cli
 # ...
 #+end_src
+
